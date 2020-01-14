@@ -61,12 +61,12 @@ button{
 
 .o-btn{
     background: $o-primary;
-    width: 145px;
+    width: 175px;
 
     &::before{
         position: absolute;
         content: '';
-        width: 145px;
+        width: 175px;
         height: 40px;
         border: 2px solid $o-primary;
         left: -6px;
