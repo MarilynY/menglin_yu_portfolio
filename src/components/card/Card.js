@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import FsLightbox from 'fslightbox-react';
-import { FaLink, FaSearchPlus } from 'react-icons/fa';
+import { FaLink, FaSearchPlus, FaGithub, FaVideo } from 'react-icons/fa';
 import './Card.scss';
+
+import Tooltip from '@material-ui/core/Tooltip';
 
 const Card = (props) => {
 
@@ -11,14 +13,29 @@ const Card = (props) => {
         <>
             <div className="o-card text-center">
                 <div className="mb-2 position-relative overflow-hidden">
-                    <img src={props.thumbnail} alt="oftadeh" title="oftadeh" />
+                    <img src={props.thumbnail} alt="Menglin" title="Menglin" />
                     <span className="o-hover-overlay d-flex align-items-center justify-content-center">
-                        <a href={props.url} className="rounded-circle bg-white m-1 o-text-purple">
-                            <FaLink />
-                        </a>
-                        <button className="rounded-circle bg-white m-1 o-text-purple" onClick={ () => setToggler(!toggler) }>
-                            <FaSearchPlus />
-                        </button>
+                        {/*Demo Video*/}
+                        <Tooltip title="Demo" arrow placement="top">
+                            <button className="rounded-circle bg-white m-1 o-text-purple"  onClick={ () => setToggler(!toggler) }>
+                                <FaVideo />
+                            </button>
+                        </Tooltip>
+
+                        {/*Website*/}
+                        <Tooltip title="Website" arrow placement="top">
+                            <a href={props.websiteUrl} className="rounded-circle bg-white m-1 o-text-purple">
+                                <FaLink />
+                            </a>
+                        </Tooltip>
+
+                        {/*Github*/}
+                        <Tooltip title="Code" arrow placement="top">
+                            <a href={props.githubUrl} className="rounded-circle bg-white m-1 o-text-purple">
+                                <FaGithub />
+                            </a>
+                        </Tooltip>
+
                     </span>
                     <FsLightbox
                         toggler={ toggler }
