@@ -24,27 +24,27 @@ class Services extends React.Component{
     state = {
         services: [
             {
-                Icon: FaMagic,
-                title: 'Web Design',
-                subTitle: 'UI & UX Architecture',
+                Icon: FaCode,
+                title: 'Web Development',
+                subTitle: 'React JS',
                 description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed.'
             },
             {
-                Icon: FaCode,
-                title: 'Web Development',
-                subTitle: 'Code & Run',
+                Icon: FaMagic,
+                title: 'Backend Development',
+                subTitle: 'OOD in Java & Go',
                 description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed.'
             },
             {
                 Icon: FaChartLine,
-                title: 'Seo & Analyze',
-                subTitle: 'DIGITAL MARKETING',
+                title: 'Database & Cloud',
+                subTitle: 'database design & deployment',
                 description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed.'
             },
             {
                 Icon: FaMobileAlt,
-                title: 'Mobile Application',
-                subTitle: 'Code & Run',
+                title: 'Android Development',
+                subTitle: 'Mobile',
                 description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed.'
             },
         ]
