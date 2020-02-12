@@ -3,7 +3,7 @@ import { Scrollbars } from 'react-custom-scrollbars';
 
 const withCustomScroll = WrappedComponent => {
     return class extends React.Component{
-        render(){            
+        render(){
             return(
                 <div className={`col-12 col-md-6 p-0 right-side overflow-hidden`}>
                     {

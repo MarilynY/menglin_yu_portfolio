@@ -2,9 +2,7 @@ import React from 'react';
 import ContactSide from './../../components/contactSide/ContactSide';
 
 const Contact = () => (
-    <>
-        <ContactSide />
-    </>
+    <ContactSide />
 );
 
 export default Contact;

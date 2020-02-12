@@ -15,31 +15,31 @@ class InfoList extends React.Component{
     state = {
         allInfo: [
             {
-                infoTitle: 'Age',
-                infoValue: 23,
+                infoTitle: 'Occupation',
+                infoValue: 'CS Master Student and Freelance Developer',
             },
             {
                 infoTitle: 'Languages',
-                infoValue: 'English, Germany',
+                infoValue: 'English, Mandarin',
             },
             {
                 infoTitle: 'Nationality',
-                infoValue: 'American',
+                infoValue: 'Chinese',
             },
             {
-                infoTitle: 'Address',
-                infoValue: '121 King Street, Melbourne, Victoria 3000, Australia',
+                infoTitle: 'Sponsorship',
+                infoValue: 'Do Not Need',
             },
             {
-                infoTitle: 'Freelance',
-                infoValue: 'till March 25, 2013',
+                infoTitle: 'Available Data',
+                infoValue: 'From now on',
             },
         ]
     }
 
     render(){
         return(
-            <>
+            <div>
                 <Title>About</Title>
                 <ul className="list-unstyled p-3">
                     {
@@ -48,7 +48,7 @@ class InfoList extends React.Component{
                         ))
                     }
                 </ul>
-            </>
+            </div>
         );
     }
 }

@@ -26,7 +26,7 @@ class Skills extends React.Component{
 
     render(){
         return(
-            <>
+            <div>
                 <ul className="list-unstyled mb-5 o-grid">
                     {
                         this.state.skills.map(item => (
@@ -34,7 +34,7 @@ class Skills extends React.Component{
                         ))
                     }
                 </ul>
-            </>
+            </div>
         );
     }
 }

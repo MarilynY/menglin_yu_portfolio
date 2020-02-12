@@ -38,43 +38,43 @@ class ContactSide extends React.Component {
         this.setState({fullName: '', email: '', message: ''});
     }
 
-render(){
-    return(
-        <>
-            <Title>Contact Me</Title>
-            <ul className="list-unstyled o-grid">
-                {
-                    this.state.ContactItems.map(item => (
-                        <ContactItem key={item.id} {...item} />
-                    ))
-                }
-            </ul>
-            <div className="leave-Message">
-                <Title>Contact Form</Title>
-                <form onSubmit={this.handleSubmit}>
-                    <div className="row">
-                        <div className="col-12 col-sm-6">
-                            <div className="form-group">
-                                <input type="text" className="form-control rounded-0 o-border-purple" name="fullName" placeholder="Full Name" value={this.state.fullName} onChange={this.handleChange} />
+    render(){
+        return(
+            <>
+                <Title>Contact Me</Title>
+                <ul className="list-unstyled o-grid">
+                    {
+                        this.state.ContactItems.map(item => (
+                            <ContactItem key={item.id} {...item} />
+                        ))
+                    }
+                </ul>
+                <div className="leave-Message">
+                    <Title>Contact Form</Title>
+                    <form onSubmit={this.handleSubmit}>
+                        <div className="row">
+                            <div className="col-12 col-sm-6">
+                                <div className="form-group">
+                                    <input type="text" className="form-control rounded-0 o-border-purple" name="fullName" placeholder="Full Name" value={this.state.fullName} onChange={this.handleChange} />
+                                </div>
+                            </div>
+                            <div className="col-12 col-sm-6">
+                                <div className="form-group">
+                                    <input type="email" className="form-control rounded-0 o-border-purple" name="email" placeholder="Email Address" value={this.state.email} onChange={this.handleChange} />
+                                </div>
                             </div>
                         </div>
-                        <div className="col-12 col-sm-6">
-                            <div className="form-group">
-                                <input type="email" className="form-control rounded-0 o-border-purple" name="email" placeholder="Email Address" value={this.state.email} onChange={this.handleChange} />
-                            </div>
+                        <div className="form-group">
+                            <textarea className="form-control rounded-0 o-border-purple" name="message" value={this.state.message} onChange={this.handleChange} placeholder="Your Message"></textarea>
                         </div>
-                    </div>
-                    <div className="form-group">
-                        <textarea className="form-control rounded-0 o-border-purple" name="message" value={this.state.message} onChange={this.handleChange} placeholder="Your Message"></textarea>
-                    </div>
-                    <div className="form-group">
-                        <button type="submit" className="m-3 text-white o-btn text-center py-2 position-relative">Send Message</button>
-                    </div>
-                </form>
-            </div>
-        </>
-    );
-}
+                        <div className="form-group">
+                            <button type="submit" className="m-3 text-white o-btn text-center py-2 position-relative">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </>
+        );
+    }
 
 }
 

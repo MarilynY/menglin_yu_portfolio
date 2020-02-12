@@ -23,21 +23,30 @@ class Testimonial extends React.Component{
         testimonials: [
             {
                 id: 1,
-                name: 'David Joe',
-                expert: 'Client',
-                review: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et.',
+                name: 'Travis Marceau',
+                expert: 'Lead Solution Engineer at Salesforce',
+                review: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor elitr, sed diam nonumy eirmod tempor ',
             },
             {
                 id: 2,
-                name: 'Jenifer Doe',
-                expert: 'Graphist & Designer',
-                review: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et.',
+                name: 'Qingzhou Li',
+                expert: 'Software Engineer at Amazon',
+                review: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, ' +
+                    'sed diam nonumy eirmod tempor invidunt ut labore et dolore magna ' +
+                    'aliquyam erat, sed diam voluptua. At vero eos et accusam et justo ' +
+                    'duo dolores et. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, ' +
+                    'sed diam nonumy eirmod tempor Lorem ipsum dolor sit amet, consetetur ' +
+                    'sadipscing elitr, sed diam nonumy eirmod tempor elitr, sed diam nonumy eirmod tempor ',
             },
             {
                 id: 3,
-                name: 'Mohammad Oftadeh',
-                expert: 'Software Engineer',
-                review: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et.',
+                name: 'Jiang Wang',
+                expert: 'Intern SDE at Amazon',
+                review: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor ' +
+                    'invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et' +
+                    ' justo duo dolores et. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy ' +
+                    'eirmod tempor Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy ' +
+                    'eirmod tempor elitr, sed diam nonumy eirmod tempor',
             },
         ]
     }
@@ -47,31 +56,31 @@ class Testimonial extends React.Component{
             dots: true,
             infinite: true,
             arrows: false,
-            speed: 1000,
-            autoplaySpeed: 3000,
+            speed: 1500,
+            autoplaySpeed: 10000,
             autoplay: true,
             slidesToShow: 2,
             slidesToScroll: 1,
             responsive: [{
                 breakpoint: 992,
                 settings: {
-                  slidesToShow: 1,
+                    slidesToShow: 1,
                 }
-              }]
+            }]
         };
         return(
-            <>
+            <div>
                 <Title>Reviews</Title>
                 <div className="testimonial mb-5">
-                <Slider {...settings}>
-                    {
-                        this.state.testimonials.map(item => (
-                            <ReviewBox key={item.id} {...item} />
-                        ))
-                    }
-                </Slider>
+                    <Slider {...settings}>
+                        {
+                            this.state.testimonials.map(item => (
+                                <ReviewBox key={item.id} {...item} />
+                            ))
+                        }
+                    </Slider>
                 </div>
-            </>
+            </div>
         );
     }
 }

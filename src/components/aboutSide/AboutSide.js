@@ -7,11 +7,11 @@ import withCustomScroll from './../../hoc/withCustomScroll';
 class AboutSide extends React.Component{
     render(){
         return(
-            <>
+            <div>
                 <InfoList />
                 <Services />
                 <Testimonial />
-            </>
+            </div>
         );
     }
 }

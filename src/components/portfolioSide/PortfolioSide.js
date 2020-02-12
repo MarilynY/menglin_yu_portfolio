@@ -16,7 +16,7 @@ class PortfolioSide extends React.Component{
 
     render(){
         return(
-            <>
+            <div>
                 <Title>Portfolios</Title>
                 <CardList>
                     {
@@ -27,7 +27,7 @@ class PortfolioSide extends React.Component{
                         ))
                     }
                 </CardList>
-            </>
+            </div>
         );
     }
 }

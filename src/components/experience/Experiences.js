@@ -9,7 +9,7 @@ const ExperienceItem = ({ time, field, location, description }) => (
             <small className="text-muted">{location}</small>
         </div>
         <p className="text-justify o-font-sm">{description}</p>
-    </div>  
+    </div>
 );
 
 class Experiences extends React.Component{

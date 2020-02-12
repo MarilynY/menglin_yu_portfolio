@@ -2,9 +2,7 @@ import React from 'react';
 import ResumeSide from './../../components/resumeSide/ResumeSide';
 
 const Resume = () => (
-    <>
-        <ResumeSide />
-    </>
+    <ResumeSide />
 );
 
 export default Resume;

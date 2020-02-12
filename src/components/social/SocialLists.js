@@ -1,17 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import {
-    FaTwitter,
     FaFacebookF,
-    FaLinkedinIn, 
+    FaLinkedinIn,
     FaGithub,
-    FaInstagram, 
-    FaDribbble
 } from 'react-icons/fa';
 
 const SocialItem = ({ url, Icon }) => (
     <li className="m-1">
-        <Link className="text-white p-2" to={url}><Icon /></Link>
+        <Link className="text-white p-2" to={url} target="blank" ><Icon /></Link>
     </li>
 );
 
@@ -20,28 +17,17 @@ class SocialList extends React.Component{
     state = {
         socials: [
             {
-                url: 'twitter.com',
-                Icon: FaTwitter
-            },
-            {
-                url: 'facebook.com',
+                //cannot add https before www!!!
+                url: '//www.facebook.com/profile.php?id=100004829678244',
                 Icon: FaFacebookF
             },
             {
-                url: 'linkedin.com',
+                url: '//www.linkedin.com/in/menglin-yu/',
                 Icon: FaLinkedinIn
             },
             {
-                url: 'github.com',
+                url: '//github.com/MarilynY',
                 Icon: FaGithub
-            },
-            {
-                url: 'instagram.com',
-                Icon: FaInstagram
-            },
-            {
-                url: 'dribbble.com',
-                Icon: FaDribbble
             },
         ]
     }
@@ -58,5 +44,5 @@ class SocialList extends React.Component{
         );
     }
 }
-    
+
 export default SocialList;

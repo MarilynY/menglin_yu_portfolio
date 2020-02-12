@@ -35,20 +35,20 @@ button{
 }
 
 .o-font-xs{
-  font-size: $o-xs;
+    font-size: $o-xs;
 }
 .o-font-sm{
-  font-size: $o-sm;
+    font-size: $o-sm;
 }
 .o-font-md{
-  font-size: $o-md;
+    font-size: $o-md;
 }
 .o-font-lg{
-  font-size: $o-lg;
+    font-size: $o-lg;
 }
 
 .o-text-purple{
-  color: $o-primary;
+    color: $o-primary;
 }
 
 .o-border-purple{
@@ -61,12 +61,12 @@ button{
 
 .o-btn{
     background: $o-primary;
-    width: 145px;
+    width: 175px;
 
     &::before{
         position: absolute;
         content: '';
-        width: 145px;
+        width: 175px;
         height: 40px;
         border: 2px solid $o-primary;
         left: -6px;

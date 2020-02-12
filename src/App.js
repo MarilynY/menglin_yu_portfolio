@@ -6,13 +6,13 @@ import BackBody from './components/backBody/BackBody';
 import ResponsiveMenu from './components/responsiveMenu/ResponsiveMenu';
 
 function App() {
-  return (
-    <>
-      <BackBody />
-      <ResponsiveMenu />
-      <Main />
-    </>
-  );
+    return (
+        <>
+            <BackBody />
+            <ResponsiveMenu />
+            <Main />
+        </>
+    );
 }
 
 export default App;

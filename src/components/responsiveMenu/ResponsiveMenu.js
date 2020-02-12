@@ -7,12 +7,12 @@ import Avatar from '../avatar/Avatar';
 import './ResponsiveMenu.scss';
 
 const ResponsiveMenu = () => {
-    
+
     const [toggleState, setToggleState] = useState(false);
 
     function toggle() {
         setToggleState(!toggleState);
-        
+
         if(toggleState)
             document.body.classList.remove('overflow-hidden');
         else
@@ -21,7 +21,7 @@ const ResponsiveMenu = () => {
     }
 
     return (
-        <>
+        <div>
             {toggleState ? <BackDrop toggleFunc={toggle} /> : ''}
             <button onClick={toggle} className="o-toggle-menu d-block d-md-none o-bg-purple text-white rounded-circle position-fixed">
                 {toggleState ? <FaTimes /> : <FaStream />}
@@ -37,7 +37,7 @@ const ResponsiveMenu = () => {
                     <p className="o-text-purple text-center mb-2">@2019 OftadehTheme</p>
                 </div>
             </div>
-        </>
+        </div>
     )
 };
 

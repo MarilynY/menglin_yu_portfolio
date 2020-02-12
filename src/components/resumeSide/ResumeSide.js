@@ -6,11 +6,11 @@ import withCustomScroll from './../../hoc/withCustomScroll';
 import './ResumeSide.scss';
 
 const ResumeSide = () => (
-    <>
+    <div>
         <Title>My Skills</Title>
-            <Skills />
+        <Skills />
         <Experiences />
-    </>
+    </div>
 );
 
 export default withCustomScroll(ResumeSide);
