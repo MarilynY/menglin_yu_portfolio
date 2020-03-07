@@ -17,5 +17,3 @@ class AboutSide extends React.Component{
 }
 
 export default withCustomScroll(AboutSide);
-
-//test username
