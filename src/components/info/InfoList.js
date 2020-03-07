@@ -16,7 +16,7 @@ class InfoList extends React.Component{
         allInfo: [
             {
                 infoTitle: 'Occupation',
-                infoValue: 'CS Master Student and Freelance Developer',
+                infoValue: 'CS Master Student and Freelance Full Stack Software Developer',
             },
             {
                 infoTitle: 'Languages',
@@ -31,8 +31,8 @@ class InfoList extends React.Component{
                 infoValue: 'Do Not Need',
             },
             {
-                infoTitle: 'Available Data',
-                infoValue: 'From now on',
+                infoTitle: 'Available Date',
+                infoValue: 'In a month',
             },
         ]
     }

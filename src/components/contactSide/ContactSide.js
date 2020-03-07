@@ -16,10 +16,10 @@ class ContactSide extends React.Component {
         email: '',
         message: '',
         ContactItems: [
-            {id: 1, title: 'E-mail', body: 'example@gmail.com'},
-            {id: 2, title: 'Address', body: '121 King Street, Melbourne, Victoria 3000, Australia'},
-            {id: 3, title: 'Phone', body: '+012-3456-7891'},
-            {id: 4, title: 'Freelance', body: 'Available'},
+            {id: 1, title: 'E-mail', body: 'yml.100205@gmail.com'},
+            {id: 2, title: 'Address', body: 'Cleveland, OH 44143'},
+            {id: 3, title: 'Phone', body: '(202)531-3988'},
+            {id: 4, title: 'WeChat', body: 'yu_meng_lin'},
         ]
     }
 
@@ -40,7 +40,7 @@ class ContactSide extends React.Component {
 
     render(){
         return(
-            <>
+            <div>
                 <Title>Contact Me</Title>
                 <ul className="list-unstyled o-grid">
                     {
@@ -49,30 +49,30 @@ class ContactSide extends React.Component {
                         ))
                     }
                 </ul>
-                <div className="leave-Message">
-                    <Title>Contact Form</Title>
-                    <form onSubmit={this.handleSubmit}>
-                        <div className="row">
-                            <div className="col-12 col-sm-6">
-                                <div className="form-group">
-                                    <input type="text" className="form-control rounded-0 o-border-purple" name="fullName" placeholder="Full Name" value={this.state.fullName} onChange={this.handleChange} />
-                                </div>
-                            </div>
-                            <div className="col-12 col-sm-6">
-                                <div className="form-group">
-                                    <input type="email" className="form-control rounded-0 o-border-purple" name="email" placeholder="Email Address" value={this.state.email} onChange={this.handleChange} />
-                                </div>
-                            </div>
-                        </div>
-                        <div className="form-group">
-                            <textarea className="form-control rounded-0 o-border-purple" name="message" value={this.state.message} onChange={this.handleChange} placeholder="Your Message"></textarea>
-                        </div>
-                        <div className="form-group">
-                            <button type="submit" className="m-3 text-white o-btn text-center py-2 position-relative">Send Message</button>
-                        </div>
-                    </form>
-                </div>
-            </>
+                {/*<div className="leave-Message">*/}
+                {/*    <Title>Contact Form</Title>*/}
+                {/*    <form onSubmit={this.handleSubmit}>*/}
+                {/*        <div className="row">*/}
+                {/*            <div className="col-12 col-sm-6">*/}
+                {/*                <div className="form-group">*/}
+                {/*                    <input type="text" className="form-control rounded-0 o-border-purple" name="fullName" placeholder="Full Name" value={this.state.fullName} onChange={this.handleChange} />*/}
+                {/*                </div>*/}
+                {/*            </div>*/}
+                {/*            <div className="col-12 col-sm-6">*/}
+                {/*                <div className="form-group">*/}
+                {/*                    <input type="email" className="form-control rounded-0 o-border-purple" name="email" placeholder="Email Address" value={this.state.email} onChange={this.handleChange} />*/}
+                {/*                </div>*/}
+                {/*            </div>*/}
+                {/*        </div>*/}
+                {/*        <div className="form-group">*/}
+                {/*            <textarea className="form-control rounded-0 o-border-purple" name="message" value={this.state.message} onChange={this.handleChange} placeholder="Your Message"></textarea>*/}
+                {/*        </div>*/}
+                {/*        <div className="form-group">*/}
+                {/*            <button type="submit" className="m-3 text-white o-btn text-center py-2 position-relative">Send Message</button>*/}
+                {/*        </div>*/}
+                {/*    </form>*/}
+                {/*</div>*/}
+            </div>
         );
     }
 

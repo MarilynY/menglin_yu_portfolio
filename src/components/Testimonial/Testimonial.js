@@ -25,7 +25,9 @@ class Testimonial extends React.Component{
                 id: 1,
                 name: 'Travis Marceau',
                 expert: 'Lead Solution Engineer at Salesforce',
-                review: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor elitr, sed diam nonumy eirmod tempor ',
+                review: 'Menglin and I worked together throughout the Software Development Process class at Georgia Tech. In our time together, she consistently demonstrated an eagerness to take on challenging portions of the project to improve her skills in those areas. She was always on top of her work, and excited to contribute to the team and anyone who needed assistance.\n' +
+                    'I’ve worked in a number of different courses during my time in the Online Masters of Science in Computer Science program at Georgia Tech, and I can’t think of many teammates who I enjoyed working with more. She consistently positioned herself as a leader in the team, helping organize the effort of each individual involved. \n' +
+                    'I wouldn’t hesitate to bring Menglin onto my team in the future!',
             },
             {
                 id: 2,

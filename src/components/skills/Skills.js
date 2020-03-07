@@ -13,14 +13,21 @@ class Skills extends React.Component{
 
     state = {
         skills: [
-            {id: 1, title: 'HTML5', percent: '25'},
-            {id: 2, title: 'CSS3', percent: '50'},
-            {id: 3, title: 'JAVASCRIPT', percent: '75'},
-            {id: 4, title: 'JQUERY', percent: '100'},
-            {id: 5, title: 'REACTJS', percent: '25'},
-            {id: 6, title: 'PHP', percent: '50'},
-            {id: 7, title: 'UI & UX', percent: '75'},
-            {id: 8, title: 'NODEJS', percent: '100'},
+            {id: 1, title: 'REACT JS', percent: '90'},
+            {id: 2, title: 'REACT NATIVE', percent: '90'},
+            {id: 3, title: 'JAVA', percent: '90'},
+            {id: 4, title: 'SQL', percent: '90'},
+            {id: 5, title: 'MySQL', percent: '90'},
+            {id: 6, title: 'GitHub', percent: '90'},
+            {id: 7, title: 'HTML', percent: '75'},
+            {id: 8, title: 'CSS', percent: '75'},
+            {id: 9, title: 'JAVASCRIPT(ES5/ES6)', percent: '75'},
+            {id: 10, title: 'UI & UX DESIGN', percent: '75'},
+            {id: 11, title: 'AWS/GCP/FIREBASE/HEROKU', percent: '75'},
+            {id: 12, title: 'JQUERY', percent: '50'},
+            {id: 13, title: 'GO', percent: '50'},
+            {id: 14, title: 'ELASTIC SEARCH', percent: '50'},
+            {id: 15, title: 'Android Studio', percent: '50'},
         ]
     }
 

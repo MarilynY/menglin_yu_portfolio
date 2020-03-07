@@ -29,13 +29,13 @@ const ResponsiveMenu = () => {
             <div style={toggleState ? {left:0} : {left:'-100%'}} className="responsive-menu overflow-hidden position-fixed bg-white d-block d-md-none">
                 <div className="res-back-avatar pt-3 d-flex align-items-center justify-content-center flex-column">
                     <Avatar />
-                    <p className="text-white text-center">Hi, I am <strong className="ml-2 o-text-purple">Mohammad Oftadeh</strong></p>
+                    <p className="text-white text-center">Hi, I am <strong className="ml-2 o-text-purple">Menglin Yu</strong></p>
                     <SocialList />
                 </div>
                 <Navbar flexColumn justifyStart toggleFunc={toggle} />
-                <div className="position-absolute copyright pt-2 bg-white">
-                    <p className="o-text-purple text-center mb-2">@2019 OftadehTheme</p>
-                </div>
+                {/*<div className="position-absolute copyright pt-2 bg-white">*/}
+                {/*    <p className="o-text-purple text-center mb-2">@2019 OftadehTheme</p>*/}
+                {/*</div>*/}
             </div>
         </div>
     )

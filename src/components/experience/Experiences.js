@@ -16,14 +16,19 @@ class Experiences extends React.Component{
 
     state = {
         experiences: [
-            {id: 1, type: 'work', time: '2016 - Present', field: 'Frontend Web Developer', location: 'Space Company', description: 'Collaborate with creative and development teams on the execution of ideas.'},
-            {id: 2, type: 'education', time: '2013 - 2016', field: 'bachelor degree Computer', location: 'MIT', description: 'Collaborate with creative and development teams on the execution of ideas.'},
+            {id: 1, type: 'work', time: '04/2013 - 03/2015', field: 'Freelance Architecture', location: 'Washington, D.C.', description: ''},
+            {id: 1, type: 'work', time: '08/2019 - Present', field: 'Freelance Full-stack Software Developer', location: 'Cleveland, OH', description: ''},
+            {id: 2, type: 'education', time: '08/2019 - 06/2021', field: 'M.S. in Computer Science', location: 'Georgia Institute of Technology (online)', description: ''},
+            {id: 2, type: 'education', time: '04/2019 - 08/2019', field: 'Full-stack Development Certificate', location: 'LaiOffer Boot Camp', description: ''},
+            {id: 3, type: 'education', time: '08/2018 - 02/2019', field: 'Software Development Essentials Certificate', location: 'LaiOffer Boot Camp', description: ''},
+            {id: 4, type: 'education', time: '08/2007 - 06/2012', field: 'B.E. in Architecture', location: 'Tianjin University, Tianjin, China', description: ''},
         ]
     }
 
     render(){
         return(
             <div className="row">
+                {/*Experience*/}
                 <div className="col-12 col-sm-6 col-md-12 col-lg-6 border-right">
                     <div className="mb-4">
                         <i className="o-font-lg align-bottom o-text-purple mr-2"><FaBriefcase /></i>
@@ -35,6 +40,8 @@ class Experiences extends React.Component{
                         ))
                     }
                 </div>
+
+                {/*Education*/}
                 <div className="col-12 col-sm-6 col-md-12 col-lg-6">
                     <div className="mb-4">
                         <i className="o-font-lg align-bottom o-text-purple mr-2"><FaUniversity /></i>
