@@ -20,7 +20,7 @@ export const portfolios = [
 
     {
         id: 3,
-        title: 'Word Game Android App',
+        title: 'Scramble Game Android App',
         websiteUrl: '',
         githubUrl: '',
         thumbnail: 'https://images-na.ssl-images-amazon.com/images/I/41R%2BwGB6HlL.png',
@@ -72,7 +72,7 @@ export const portfolios = [
         title: 'Animal Shelter Management',
         websiteUrl: '',
         githubUrl: '',
-        thumbnail: 'https://lh3.googleusercontent.com/proxy/ocQXHIEgSYyzyToOR15UlDDXulXeJsCUO3STYqRCHrFsE37M2ui75MQ54jU7aaL8PTdrsK2E21rnN98GSaKjahG_PPgdP_OIAWrU-6FNZyYuSwYHMeBNKz7ZLBtnu1muKko3WRojfSGwqEVvsmMSTdm6noQ4RxiGPBiVJMHKvWVB1OwNiHuN3Zo2B97mxgV8JmRd9cpUmQ64NzfGR0jn',
+        thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSwwULPe1TNRTqYTTzvypLc1t1IC6txW7wTWy0To2OiyqLPnB1W',
         full: '',
         category: 'React JS, PHP, Relational Database',
     },
