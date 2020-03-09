@@ -7,11 +7,11 @@ import ResponsiveMenu from './components/responsiveMenu/ResponsiveMenu';
 
 function App() {
     return (
-        <>
+        <div>
             <BackBody />
             <ResponsiveMenu />
             <Main />
-        </>
+        </div>
     );
 }
 
