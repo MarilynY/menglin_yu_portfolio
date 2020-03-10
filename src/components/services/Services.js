@@ -26,26 +26,32 @@ class Services extends React.Component{
             {
                 Icon: FaCode,
                 title: 'Web Development',
-                subTitle: 'React JS',
-                description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed.'
+                subTitle: 'UI/UX Design & Coding',
+                //The role is responsible for designing, coding and modifying websites, from layout to function and according to a client's specifications.
+                //Strive to create visually appealing sites that feature user-friendly design and clear navigation.
+                description: 'Strive to design and create visually appealing websites that feature user-friendly design and clear navigation.'
             },
             {
                 Icon: FaMagic,
                 title: 'Backend Development',
-                subTitle: 'OOD in Java & Go',
-                description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed.'
+                subTitle: 'OOD & OOP in Java & Go',
+                //A back-end web developer is responsible for server-side web application logic and integration of the work front-end web developers do.
+                //Back-end developers usually write web services and APIs used by front-end developers and mobile application developers.
+                description: 'Responsible for OO design, API design, server-side logic implementation and stability and efficiency monitoring.'
+            },
+            {
+                Icon: FaMobileAlt,
+                title: 'Mobile Development',
+                subTitle: 'IOS and Android APP',
+                //create, maintain and implement the source code to develop mobile apps and
+                //programs that meet the needs and requirements of the clients using the computer programming languages.
+                description: 'Design, create, maintain, and implement IOS App with React Native and Android App with Android Studio.'
             },
             {
                 Icon: FaChartLine,
                 title: 'Database & Cloud',
-                subTitle: 'database design & deployment',
-                description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed.'
-            },
-            {
-                Icon: FaMobileAlt,
-                title: 'Android Development',
-                subTitle: 'Mobile',
-                description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed.'
+                subTitle: 'Database Design & Deployment',
+                description: 'Design and implement SQL and NoSQL database and deploy application to AWS, GCE, Firebase and Heroku.'
             },
         ]
     }
@@ -53,7 +59,7 @@ class Services extends React.Component{
     render(){
         return(
             <div className="services mb-5">
-                <Title>Services</Title>
+                <Title>Skill Sets</Title>
                 <div className="d-flex flex-wrap justify-content-center">
                     {
                         this.state.services.map((item, index) => (
