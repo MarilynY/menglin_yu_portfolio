@@ -12,10 +12,10 @@ const LeftSide = () => (
                 <h1 className="o-font-lg ml-2 o-text-purple">Menglin Yu</h1>
             </div>
             <p className="text-justify text-white" style={{paddingLeft: '1rem', paddingRight: '1rem'}}>
-
+                A tech lead of Kitchen Management App startup project as well as a CS graduate candidate has 2 years of experience in full-stack software development, mobile development, database management, and cloud programming and deployment. Well-versed in OOD, OOP, Java, SQL, MySQL DB, HTML, CSS, JavaScript, React JS and React Native.
 
             </p>
-            <SocialList margin />
+            <SocialList />
             <div className="row mb-5 justify-content-center">
                 <a href="https://docs.google.com/document/d/1NZyzNOKLpB_1JeZ0cZRPFOCHGHUrTR5lHS3hqvkdKhI/edit?usp=sharing" target="blank"  className="d-block m-3 text-white o-btn text-center py-2 position-relative">DOWNLOAD CV</a>
                 <a href="https://docs.google.com/document/d/1ZiXc_VYLGMXHFpHVnCDXPYZW0BjFW11viuhjsF6wKqw/edit?usp=sharing" target="blank"  className="d-block m-3 text-white o-btn text-center py-2 position-relative">DOWNLOAD RESUME</a>
