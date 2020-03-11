@@ -12,7 +12,7 @@ const Main = () => (
         <main className="d-flex align-items-center position-relative">
             <div className="container bg-white shadow-lg position-relative">
                 <header className="d-none d-md-block position-absolute">
-                    <Navbar hover />
+                    <Navbar hover/>
                 </header>
                 <div className="row">
                     <LeftSide />
