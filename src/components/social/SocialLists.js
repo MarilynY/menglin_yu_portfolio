@@ -21,15 +21,15 @@ class SocialList extends React.Component{
         socials: [
             {
                 //cannot add https before www!!!
-                url: 'https//www.facebook.com/profile.php?id=100004829678244',
+                url: '//www.facebook.com/profile.php?id=100004829678244',
                 Icon: FaFacebookF
             },
             {
-                url: 'https//www.linkedin.com/in/menglin-yu/',
+                url: '//www.linkedin.com/in/menglin-yu/',
                 Icon: FaLinkedinIn
             },
             {
-                url: 'https//github.com/MarilynY',
+                url: '//github.com/MarilynY',
                 Icon: FaGithub
             },
         ]
