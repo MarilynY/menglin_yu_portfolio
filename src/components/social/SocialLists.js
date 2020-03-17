@@ -8,7 +8,10 @@ import {
 
 const SocialItem = ({ url, Icon }) => (
     <li className="m-1">
-        <Link className="text-white p-2" to={url} target="blank" ><Icon /></Link>
+        {/*<Link className="text-white p-2" to={url} target="blank" ><Icon /></Link>*/}
+        <a href={url} target = "blank" className="text-white p-2">
+            <Icon />
+        </a>
     </li>
 );
 
