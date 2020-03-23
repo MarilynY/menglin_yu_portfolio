@@ -12,8 +12,8 @@ const LeftSide = () => (
                 <h1 className="o-font-lg ml-2 o-text-purple">Menglin Yu</h1>
             </div>
             <p className="text-justify text-white" style={{paddingLeft: '1rem', paddingRight: '1rem'}}>
-                The tech lead of Kitchen Management App startup project as well as a CS graduate candidate has 2 years of experience in full-stack software development, mobile development, database management, and cloud programming and deployment. Well-versed in OOD, OOP, Java, SQL, MySQL DB, HTML, CSS, JavaScript, React JS and React Native.
-
+                {/*The tech lead of Kitchen Management App startup project as well as a CS graduate candidate has 2 years of experience in full-stack software development, mobile development, database management, and cloud programming and deployment. Well-versed in OOD, OOP, Java, SQL, MySQL DB, HTML, CSS, JavaScript, React JS and React Native.*/}
+                Aspiring project technical lead as well as Master’s candidate in computer science with extensive experience in full-stack software development, mobile app development, and project management. Strong knowledge of OOD, OOP, and database. Solid programming skills in Java, SQL, HTML, CSS, JavaScript, React JS and React Native.
             </p>
             <SocialList />
             <div className="row mb-5 justify-content-center">

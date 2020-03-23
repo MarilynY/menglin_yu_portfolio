@@ -16,23 +16,15 @@ class InfoList extends React.Component{
         allInfo: [
             {
                 infoTitle: 'Occupation',
-                infoValue: 'CS Master Student and Freelance Full Stack Software Developer',
+                infoValue: "Full Stack Software Developer and CS Master\'s Candidate",
             },
             {
-                infoTitle: 'Languages',
-                infoValue: 'English, Mandarin',
+                infoTitle: 'Work Permit',
+                infoValue: 'Unrestricted Work Authorization',
             },
             {
-                infoTitle: 'Nationality',
-                infoValue: 'Chinese',
-            },
-            {
-                infoTitle: 'Sponsorship',
-                infoValue: 'Do Not Need',
-            },
-            {
-                infoTitle: 'Available Date',
-                infoValue: 'In a month',
+                infoTitle: 'Start Date',
+                infoValue: 'In two weeks',
             },
         ]
     }
